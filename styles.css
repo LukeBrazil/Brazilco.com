@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar {
+    background: pink;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 8rem;
+    margin: 0 6rem 0 10rem;
+}
+
+.logo {
+    display: flex;
+    align-self: flex-end;    
+}
+
+.logo img {
+    height: 5rem;
+}
+
+.navbar-services {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    align-self: flex-end;
+}
+
+.navbar-services span {
+    top: 15%;
+}
