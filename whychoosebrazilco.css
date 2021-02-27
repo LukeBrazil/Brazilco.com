@@ -1,0 +1,63 @@
+.banner-image {
+    background-image: url('https://6o1t5bo1jy208y1b0efld7b-wpengine.netdna-ssl.com/wp-content/uploads/2017/08/why-choose-banner.jpg');
+    min-height: 200px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.banner-image img {
+    height: 90px;
+}
+
+.mailing-list-content {
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.our-pledge {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    height: 35rem;
+    width: 100%;
+    background: #e7e7e8;
+}
+
+.pledge-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 15rem;
+    height: 11rem;
+    text-align: center;
+}
+
+.pledge-row {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin: 25px;
+    width: 60rem;
+}
+
+.pledge-h1 {
+    margin: 20px;
+}
+
+.making-your-case {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 14rem;
+    background: #CF102D;
+    color: white;
+}
