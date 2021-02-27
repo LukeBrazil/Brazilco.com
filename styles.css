@@ -8,10 +8,18 @@ main {
     font-family: 'Open Sans', sans-serif;
 }
 
-.navbar {
-    background: pink;
+nav {
     display: flex;
-    justify-content: flex-start;
+    flex-direction: column;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.navbar-header {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
     min-height: 8rem;
     margin: 0 6rem 0 10rem;
@@ -24,6 +32,7 @@ main {
 
 .logo img {
     height: 5rem;
+    margin-bottom: 1rem;
 }
 
 .navbar-services {
@@ -35,4 +44,61 @@ main {
 
 .navbar-services span {
     top: 15%;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 4rem;
+    background: #000000;
+    padding-right: 10rem;
+}
+
+.nav-links a {
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.banner-image {
+    display: flex;
+    justify-content: center;
+    min-height: 350px;
+    width: 100%;
+    background-image: url('https://6o1t5bo1jy208y1b0efld7b-wpengine.netdna-ssl.com/wp-content/uploads/2017/08/bkgnd_1.jpg');
+
+}
+
+.banner-child-image {
+    display: flex;
+    width: 40%;
+    height: 20.2rem;
+    background-image: url('https://6o1t5bo1jy208y1b0efld7b-wpengine.netdna-ssl.com/wp-content/uploads/2017/08/home-headline.png');
+    margin-top: 1rem;
+}
+
+.services-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: pink;
+    width: 100%;
+    height: 29rem
+}
+
+.services-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    height: 100%;
+    text-align: center;
+}
+
+.services-links {
+    display: flex;
+    flex-wrap: 3;
 }
