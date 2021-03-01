@@ -1,3 +1,12 @@
+main {
+    background: linear-gradient(to right top, #FFFFFF, #000000);
+    z-index: 1;
+}
+
+nav {
+    background: #FFFFFF;
+}
+
 .banner-image {
     background-image: url('https://6o1t5bo1jy208y1b0efld7b-wpengine.netdna-ssl.com/wp-content/uploads/2017/08/why-choose-banner.jpg');
     min-height: 200px;
@@ -14,9 +23,11 @@
 
 .mailing-list {
     height: 30rem;
+    background: #FFFFFF;
     display: flex;
     justify-content: flex-start;
     padding-top: 1rem;
+    z-index: 2;
 }
 
 .mailing-list-content {

@@ -68,18 +68,17 @@ a:link {
     min-height: 350px;
     width: 100%;
     background-image: url('https://6o1t5bo1jy208y1b0efld7b-wpengine.netdna-ssl.com/wp-content/uploads/2017/08/bkgnd_1.jpg');
+    background-position: center;
+    background-size: cover;
 
 }
 
 .banner-child-image {
     display: flex;
-    width: 40%;
-    height: 20.2rem;
-    margin-top: 1rem;
 }
 
 .banner-child-image img {
-    width: 80%;
+    
 }
 
 .services-list {

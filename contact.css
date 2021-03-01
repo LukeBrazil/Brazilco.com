@@ -1,0 +1,59 @@
+.banner-image {
+    background-image: url('https://6o1t5bo1jy208y1b0efld7b-wpengine.netdna-ssl.com/wp-content/uploads/2017/08/contact-banner.png');
+    min-height: 200px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.banner-image img {
+    height: 120px;
+}
+
+.contact-brazilco {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 8rem;
+}
+
+.contact-brazilco h2 {
+    padding-bottom: 15px;
+}
+
+.contact-info {
+    display: flex;
+    width: 100%;
+    height: 28rem;
+    background: pink;
+}
+
+.phone-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    background: #000000;
+    padding: 2rem;
+    width: 50%;
+    height: 100%;
+    color: white;
+}
+
+.phone-info, h3 {
+    padding-bottom: 5px;
+}
+
+.address-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background: #E5E5E5;
+    width: 50%;
+    height: 100%;
+}
